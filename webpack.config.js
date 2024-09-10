@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   mode: 'development',
-  entry: './src/C018-webpack/index.ts',
+  entry: './src/C019-exercise/exercise001.ts',
   module: {
     rules: [
       {
@@ -10,7 +10,7 @@ module.exports = {
         loader: 'ts-loader',
         exclude: /node_modules/,
         options: {
-          configFile: ['tsconfig.frontend.json']
+          configFile: 'tsconfig.frontend.json'
         }
       },
     ],
